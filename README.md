@@ -17,6 +17,8 @@ List of custom tracks:
 
 **Six King Labyrinth (v1.2)** replaces **N64 Bowser's Castle**
 
+**Melting Magma Melee (v1.1)** replaces **Grumble Volcano**
+
 **Final Grounds (v1.4)** replaces **Bowser's Castle**
 
 **Nightmare (RC1)** replaces **Rainbow Road**
