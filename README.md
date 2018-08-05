@@ -1,6 +1,8 @@
 # bestoftheworst
 A Mario Kart Wii custom track distribution featuring all of the tracks that you hate.
 
+Move the bestoftheworst.xml file into the Riivolution folder, and you should be good to go.
+
 List of custom tracks:
 
 **ASDF_Course (RC1)** replaces **Luigi Circuit**
