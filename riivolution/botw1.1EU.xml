@@ -24,26 +24,26 @@
 </options>
 
 <patch id="cts">
-<file disc="/Race/Course/beginner_course.szs" external="/bestoftheworst-1.0.1/cts/beginner_course.szs" />
-<file disc="/Race/Course/beginner_course_d.szs" external="/bestoftheworst-1.0.1/cts/beginner_course.szs" />
-<file disc="/Race/Course/kinoko_course.szs" external="/bestoftheworst-1.0.1/cts/kinoko_course.szs" />
-<file disc="/Race/Course/kinoko_course_d.szs" external="/bestoftheworst-1.0.1/cts/kinoko_course.szs" />
-<file disc="/Race/Course/factory_course.szs" external="/bestoftheworst-1.0.1/cts/factory_course.szs" />
-<file disc="/Race/Course/factory_course_d.szs" external="/bestoftheworst-1.0.1/cts/factory_course.szs" />
-<file disc="/Race/Course/senior_course.szs" external="/bestoftheworst-1.0.1/cts/senior_course.szs" />
-<file disc="/Race/Course/senior_course_d.szs" external="/bestoftheworst-1.0.1/cts/senior_course.szs" />
-<file disc="/Race/Course/treehouse_course.szs" external="/bestoftheworst-1.0.1/cts/treehouse_course.szs" />
-<file disc="/Race/Course/treehouse_course_d.szs" external="/bestoftheworst-1.0.1/cts/treehouse_course.szs" />
-<file disc="/Race/Course/volcano_course.szs" external="/bestoftheworst-1.0.1/cts/volcano_course.szs" />
-<file disc="/Race/Course/volcano_course_d.szs" external="/bestoftheworst-1.0.1/cts/volcano_course.szs" />
-<file disc="/Race/Course/koopa_course.szs" external="/bestoftheworst-1.0.1/cts/koopa_course.szs" />
-<file disc="/Race/Course/koopa_course_d.szs" external="/bestoftheworst-1.0.1/cts/koopa_course.szs" />
-<file disc="/Race/Course/rainbow_course.szs" external="/bestoftheworst-1.0.1/cts/rainbow_course.szs" />
-<file disc="/Race/Course/rainbow_course_d.szs" external="/bestoftheworst-1.0.1/cts/rainbow_course.szs" />
-<file disc="/Race/Course/old_heyho_gba.szs" external="/bestoftheworst-1.0.1/cts/old_heyho_gba.szs" />
-<file disc="/Race/Course/old_heyho_gba_d.szs" external="/bestoftheworst-1.0.1/cts/old_heyho_gba.szs" />
-<file disc="/Race/Course/old_koopa_64.szs" external="/bestoftheworst-1.0.1/cts/old_koopa_64.szs" />
-<file disc="/Race/Course/old_koopa_64_d.szs" external="/bestoftheworst-1.0.1/cts/old_koopa_64.szs" />
+<file disc="/Race/Course/beginner_course.szs" external="/botw1.1/cts/beginner_course.szs" />
+<file disc="/Race/Course/beginner_course_d.szs" external="/botw1.1/cts/beginner_course.szs" />
+<file disc="/Race/Course/kinoko_course.szs" external="/botw1.1/cts/kinoko_course.szs" />
+<file disc="/Race/Course/kinoko_course_d.szs" external="/botw1.1/cts/kinoko_course.szs" />
+<file disc="/Race/Course/factory_course.szs" external="/botw1.1/cts/factory_course.szs" />
+<file disc="/Race/Course/factory_course_d.szs" external="/botw1.1/cts/factory_course.szs" />
+<file disc="/Race/Course/senior_course.szs" external="/botw1.1/cts/senior_course.szs" />
+<file disc="/Race/Course/senior_course_d.szs" external="/botw1.1/cts/senior_course.szs" />
+<file disc="/Race/Course/treehouse_course.szs" external="/botw1.1/cts/treehouse_course.szs" />
+<file disc="/Race/Course/treehouse_course_d.szs" external="/botw1.1/cts/treehouse_course.szs" />
+<file disc="/Race/Course/volcano_course.szs" external="/botw1.1/cts/volcano_course.szs" />
+<file disc="/Race/Course/volcano_course_d.szs" external="/botw1.1/cts/volcano_course.szs" />
+<file disc="/Race/Course/koopa_course.szs" external="/botw1.1/cts/koopa_course.szs" />
+<file disc="/Race/Course/koopa_course_d.szs" external="/botw1.1/cts/koopa_course.szs" />
+<file disc="/Race/Course/rainbow_course.szs" external="/botw1.1/cts/rainbow_course.szs" />
+<file disc="/Race/Course/rainbow_course_d.szs" external="/botw1.1/cts/rainbow_course.szs" />
+<file disc="/Race/Course/old_heyho_gba.szs" external="/botw1.1/cts/old_heyho_gba.szs" />
+<file disc="/Race/Course/old_heyho_gba_d.szs" external="/botw1.1/cts/old_heyho_gba.szs" />
+<file disc="/Race/Course/old_koopa_64.szs" external="/botw1.1/cts/old_koopa_64.szs" />
+<file disc="/Race/Course/old_koopa_64_d.szs" external="/botw1.1/cts/old_koopa_64.szs" />
 </patch>
 
 <patch id="botwms">
