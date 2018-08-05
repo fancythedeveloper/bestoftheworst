@@ -5,7 +5,7 @@
   
 <options>
     
-<section name="Best of the Worst">
+<section name="Best of the Worst 1.0.1">
       
 <option name="Custom Tracks">
 <choice name="Enabled"><patch id="cts" />
