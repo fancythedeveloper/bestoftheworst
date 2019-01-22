@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<wiidisc version="1">
+<id game="RMCJ" disc="0" version="0">
+</id>
+  
+<options>
+    
+<section name="Best of the Worst 2.0">
+      
+<option name="Custom Tracks">
+<choice name="Enabled"><patch id="cts" /></choice>
+</option>
+
+<option name="Wiimmfi" default="1">
+<choice name="Enabled"><patch id="wiimmfi" /></choice>
+</option>
+
+<option name="My Stuff">
+<choice name="Best Of The Worst"><patch id="botwms" /></choice>
+<choice name="CTGP Revolution"><patch id="ctgprms" /></choice>
+</option>
+
+<option name="SD Save" default="1">
+<choice name="Enabled"><patch id="sdsave" /></choice>
+</option>
+
+<option name="bmg test">
+<choice name="Enabled"><patch id="bmgtest" /></choice>
+</option>
+
+</section>
+</options>
+
+<patch id="Custom Tracks">
+<folder external="/bestoftheworst/Custom Tracks" recursive="false" /> 
+<folder external="/bestoftheworst/Custom Tracks" disc="/Race/Course" />
+</patch>
+
+<patch id="botwms">
+<folder external="/bestoftheworst/My Stuff" recursive="false" /> 
+<folder external="/bestoftheworst/My Stuff" disc="/" />
+</patch>
+
+<patch id="ctgprms">
+<folder external="/ctgpr/My Stuff" recursive="false" /> 
+<folder external="/ctgpr/My Stuff" disc="/" />
+</patch>
+
+<patch id="wiimmfi">
+<folder external="/bestoftheworst/Wiimmfi/{$__gameid}{$__region}/" recursive="false" />
+<folder external="/bestoftheworst/Wiimmfi/{$__gameid}{$__region}/" disc="/" />
+</patch>
+
+<patch id="sdsave">
+<savegame clone="false" external="/bestoftheworst/SDSave/{$__gameid}{$__region}" /> 
+</patch>
+
+<patch id="bmgtest">
+<file disc="/Scene/UI/MenuSingle_U.szs/./message/Common.bmg" external="/bestoftheworst/BMG/Common.bmg" />
+</patch>
+
+</wiidisc>
