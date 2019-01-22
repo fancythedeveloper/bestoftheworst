@@ -24,10 +24,6 @@
 <choice name="Enabled"><patch id="sdsave" /></choice>
 </option>
 
-<option name="bmg test">
-<choice name="Enabled"><patch id="bmgtest" /></choice>
-</option>
-
 </section>
 </options>
 
@@ -53,10 +49,6 @@
 
 <patch id="sdsave">
 <savegame clone="false" external="/bestoftheworst/SDSave/{$__gameid}{$__region}" /> 
-</patch>
-
-<patch id="bmgtest">
-<file disc="/Scene/UI/MenuSingle_U.szs/./message/Common.bmg" external="/bestoftheworst/BMG/Common.bmg" />
 </patch>
 
 </wiidisc>
