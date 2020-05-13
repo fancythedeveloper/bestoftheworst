@@ -13,8 +13,6 @@ List of custom tracks:
 
 **Heart of China (v1.6.1)** replaces **Maple Treeway**
 
-**Star Slope (v1.1)** replaces **Daisy Circuit**
-
 **Six King Labyrinth (v1.2)** replaces **N64 Bowser's Castle**
 
 **Melting Magma Melee (v1.1)** replaces **Grumble Volcano**
