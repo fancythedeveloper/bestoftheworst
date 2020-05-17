@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <wiidisc version="1">
-<id game="RMCJ" disc="0" version="0">
+<id game="RMC" disc="0" version="0">
 </id>
   
 <options>
@@ -8,11 +8,11 @@
 <section name="Best of the Worst 2.0">
       
 <option name="Custom Tracks">
-<choice name="Enabled"><patch id="cts" /></choice>
+<choice name="Enabled"><patch id="botwcts" /></choice><patch id="botwcodes" /></choice>
 </option>
 
 <option name="Wiimmfi" default="1">
-<choice name="Enabled"><patch id="wiimmfi" /></choice>
+<choice name="Enabled"><patch id="botwwiimmfi" /></choice>
 </option>
 
 <option name="My Stuff">
@@ -21,13 +21,13 @@
 </option>
 
 <option name="SD Save" default="1">
-<choice name="Enabled"><patch id="sdsave" /></choice>
+<choice name="Enabled"><patch id="botwsdsave" /></choice>
 </option>
 
 </section>
 </options>
 
-<patch id="Custom Tracks">
+<patch id="botwcts">
 <folder external="/bestoftheworst/Custom Tracks" recursive="false" /> 
 <folder external="/bestoftheworst/Custom Tracks" disc="/Race/Course" />
 </patch>
@@ -42,13 +42,23 @@
 <folder external="/ctgpr/My Stuff" disc="/" />
 </patch>
 
-<patch id="wiimmfi">
-<folder external="/bestoftheworst/Wiimmfi/{$__gameid}{$__region}/" recursive="false" />
-<folder external="/bestoftheworst/Wiimmfi/{$__gameid}{$__region}/" disc="/" />
+<patch id="botwwiimmfi">
+<folder external="/bestoftheworst/Wiimmfi/{$__gameid}{$__region}" recursive="false" />
+<folder external="/bestoftheworst/Wiimmfi/{$__gameid}{$__region}" disc="/" />
 </patch>
 
-<patch id="sdsave">
+<patch id="botwsdsave">
 <savegame clone="false" external="/bestoftheworst/SDSave/{$__gameid}{$__region}" /> 
+</patch>
+
+<patch id="botwcodes">
+<memory ocarina="true" value="7CE33B783887003438A7003838C7004C" offset="0x800018A8" />
+<memory valuefile="codehandler.bin" offset="0x80001800" />
+<memory offset="0x00001CDE" value="8000" />
+<memory offset="0x00001CE2" value="28B8" />
+<memory offset="0x00001F5A" value="8000" />
+<memory offset="0x00001F5E" value="28B8" />
+<memory valuefile="/bestoftheworst/Codes/{$__gameid}{$__region}{$__maker}.gct" offset="0x800028B8" />
 </patch>
 
 </wiidisc>
